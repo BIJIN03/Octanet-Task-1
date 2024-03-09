@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    color: aliceblue;
+    background-color: black;
+}
+button{
+    border: 1px solid white;
+}
+body{
+    background-color: black
+}
+header{
+    display: flex;
+    margin: 20px 0 0 10px;
+}
+section{
+    margin: 10px;
+}
+.nav{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.nav .nav-items{
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+}
+.nav-items:hover{
+    color: grey;
+}
+.nav .btn-contact{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.name{
+    cursor: pointer;
+}
+.btn-contact:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.gadget{
+    margin: 40px 0 40px 5px;
+}
+.gadget img{
+    height: 30px;
+    width: 30px;
+    padding: 0 5px 0 0;
+    border-radius: 50%;
+    float: left;
+}
+.font-apple{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font-vision{
+    font-family: 'cursive','Brush Script MT';
+    font-size: larger;
+}
+.content{
+    margin: 40px 0 40px 5px;
+}
+.content img{
+    height: 350px;
+    width: 50vw;
+    float: right;
+}
+.content h3{
+    font-size: 35px;
+}
+section h2{
+    text-transform: capitalize;
+    font-size: 50px;
+}
+section h2,p{
+    width: 50vw;
+}
+section .btn{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+}
+.btn-explore{
+    height:50px;
+    width: 125px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+}
+.btn-learnmore{
+    height:50px;
+    width: 125px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+}
+.btn-explore:hover{
+    color: black;
+    background-color: white;
+}
+.btn-learnmore:hover{
+    color: white;
+    background-color: black;
+}
+.btn-learnmore,.btn-explore:hover{
+    cursor: pointer;
+}
+footer{
+    margin: 81.5px 100px 0 100px;
+}
+.footer{
+    background-color: grey;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius:50px 50px 0 0;
+    height: 15vh;
+}
+.footer-content{
+    width: 225px;
+    padding: 20px;
+    justify-self: center;
+}
+.footer-content h3,.footer-content p,.footer-content{
+    background-color: grey;
+}
+.footer-content h3{
+    font-size: 25px;
+}
+.buy-btn{
+    height: 100px;
+    padding: 35px 0 0 35px;
+    background-color: grey;
+}
+.btn-buy{
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 20px
+}
+.btn-buy:hover{
+    background-color: white;
+    color:black;
+}
+footer img{
+    height: 100px;
+    width: 100px;
+}
